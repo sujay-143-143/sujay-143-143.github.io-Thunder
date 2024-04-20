@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-*************" crossorigin="anonymous" />
+    <title>Thunder official</title>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="resources/logo.png"></a>
+        <div class="nav-links" id="navLink">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About</a></li>
+                <li><a href="page3.html">Projects</a></li>
+                <li><a href="page4.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+        
+    </nav>
+<div class="text-box">
+    <h1>Welcome to our website</h1>
+    <p>We create a technical solutions to solve the real life problems across the globe.</p>
+    <a href="" class="hero-btn">Visit Us to know more</a>
+</div>
+</section>
+<!-- About my projects -->
+<section class="course">
+    <h1>About Our Projects</h1>
+    <div class="row">
+        <div class="course-col">
+            <h3>Thoughtfully Designed</h3>
+            <p>Each project is crafted with care to provide an exceptional user experience.</p>
+        </div>
+        <div class="course-col">
+            <h3>Innovative Solutions</h3>
+            <p>Our projects solve real-world problems with cutting-edge technology.</p>
+        </div>
+        <div class="course-col">
+            <h3>Continuously Improved</h3>
+            <p>We regularly update our projects to ensure they stay ahead of the curve.</p>
+        </div>
+    </div>
+</section>
+<!--featured apps-->
+<section class="featured">
+    <h1>Featured Apps</h1>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="resources/d.jpg" alt="">
+            <h3>Productivity Booster</h3>
+            <p>Stay organized and efficient with our productivity projects.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="resources/0sgoBvtYlVEjHu5u.jpg" alt="">
+            <h3>Entertainment Delight</h3>
+            <p>Immerse yourself in captivating games and media projects.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="resources/fGGrdVkrVCo7R08s.jpg" alt="">
+            <h3>AI Tools</h3>
+            <p>Unlock the power of artificial intelligence with our cutting-edge tools and applications.</p>
+        </div>
+    </div>
+</section>
+<!--testimonial-->
+<section class="testimonial">
+    <h1>What Our User Says</h1>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="resources/tony.jpg" alt="">
+            <div>
+                <p>This software may be small in size, but it packs a powerful punch when it comes to increasing productivity. Its minimalist design and straightforward functionality make it a breeze to use, even for beginners. I've noticed a significant improvement in my workflow efficiency since incorporating this tool into my daily routine. Highly recommended for anyone looking for a no-fuss productivity boost!</p>
+                <h3>Tony stark</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="resources/cap.jpg" alt="">
+            <div>
+                <p>Despite its small footprint, this software delivers big results. Its intuitive interface and essential features make it an essential tool for maximizing productivity. While it may lack some advanced functionalities, its simplicity is its strength, ensuring smooth operation without unnecessary complexity. A must-have for anyone seeking to streamline their workflow without overwhelming bells and whistles.</p>
+                <h3>Steve Rogers</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Call to action-->
+<section class="cta">
+    <h1>Contact us to get your personalised app and website.</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+</section>
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Thunder, we're a dedicated team of tech enthusiasts specializing in software and IoT projects. With a focus on innovation and client satisfaction, we're committed to <br>delivering cutting-edge solutions tailored to your needs. Let's build the future together.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-telegram"></i>
+    </div>
+    <p class="made-by">Made by Sujay K.r Samal <i class="fas fa-laptop-code"></i></p>
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-----------------------------------------------------Javascript----------------------------------------------------------------------- -->
+<script>
+
+    var navLinks=document.getElementById("navLink");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

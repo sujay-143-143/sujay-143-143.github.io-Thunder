@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-*************" crossorigin="anonymous" />
+    <title>Thunder official</title>
+</head>
+<body>
+<!-- header -->
+<section class="Products">
+    <nav>
+        <a href="index.html"><img src="resources/logo.png"></a>
+        <div class="nav-links" id="navLink">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">About</a></li>
+                <li><a href="page3.html">Projects</a></li>
+                <li><a href="page4.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+        
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+<!-- -------contact us---------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d14253.898956634277!2d88.43069445!3d26.7292225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1713536832491!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="Contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fas fa-home"></i>
+                <span>
+                    <h5>Sadhna Apt F-1A, Sarkar para, Sevoke road</h5>
+                    <p>Siliguri, West Bengal, India</p>
+                </span>
+            </div>
+            <div>
+                <i class="fas fa-phone"></i>
+                <span>
+                    <h5>+91 9563902229</h5>
+                    <p>Monday to Saturday, 10 AM to 6 PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="far fa-envelope"></i>
+                <span>
+                    <h5>sujaysamal143143@gmail.com</h5>
+                    <p>Email us for any query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <img src="resources/OIP (1).jpg" alt="">
+        </div>
+    </div>
+    
+</section>
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At Thunder, we're a dedicated team of tech enthusiasts specializing in software and IoT projects. With a focus on innovation and client satisfaction, we're committed to <br>delivering cutting-edge solutions tailored to your needs. Let's build the future together.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-telegram"></i>
+    </div>
+    <p class="made-by">Made by Sujay K.r Samal <i class="fas fa-laptop-code"></i></p>
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-----------------------------------------------------Javascript----------------------------------------------------------------------- -->
+<script>
+
+    var navLinks=document.getElementById("navLink");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
